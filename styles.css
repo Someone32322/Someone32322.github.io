@@ -1068,6 +1068,31 @@ section {
 
 .highlight-box p:last-child { margin-bottom: 0 !important; }
 
+/* === PHOTO BLOCKS === */
+.photo-block {
+  margin: 2rem 0;
+}
+
+.photo-block img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  max-height: 440px;
+  object-fit: cover;
+  object-position: top center;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+}
+
+.photo-block figcaption {
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.5;
+  padding: 0 0.25rem;
+}
+
 /* === VIDEOS SECTION === */
 #videos {
   background: var(--bg-secondary);
